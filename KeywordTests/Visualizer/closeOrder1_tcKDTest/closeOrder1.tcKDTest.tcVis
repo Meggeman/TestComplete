@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{BF3FA110-407F-4B6E-A88E-FE99A39C06A7}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="45076.405162037" objectName="Aliases.Orders.MainForm" objectLeft="0" objectTop="0" objectRight="608" objectBottom="408" clickPointX="1263" clickPointY="-317" imageFileName="tcvi74268375211842.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45076.4051736111" objectName="Aliases.Orders.dlgConfirmation.btnYes" objectLeft="30" objectTop="114" objectRight="105" objectBottom="137" clickPointX="82" clickPointY="120" imageFileName="tcvi74269796211844.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45076.4051967593" objectName="Aliases.Orders.dlgSaveAs.btnSave" objectLeft="747" objectTop="494" objectRight="835" objectBottom="520" clickPointX="798" clickPointY="508" imageFileName="tcvi74271937211845.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45076.4052199074" objectName="Aliases.Orders.dlgConfirmSaveAs.Confirm_Save_As.CtrlNotifySink.btnYes" objectLeft="211" objectTop="95" objectRight="279" objectBottom="118" clickPointX="240" clickPointY="109" imageFileName="tcvi74273328211846.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

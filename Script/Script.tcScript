@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="main">
+			<child name="open_order" key="{8A31DA97-B9F5-41A9-82FB-4F784809ABC1}" path="open_order.js" />
+			<child name="AddOrderAndSave" key="{287DED61-4D06-4F8A-8BD0-B78600EC3609}" path="AddOrderAndSave.js" />
+			<child name="CloseOrder" key="{883AD5F2-F21C-44E1-B529-3CDF0E9939FF}" path="CloseOrder.js" />
+			<child name="addOrders" key="{3CD1FE36-31E8-4968-8023-4640330A8C54}" path="addOrders.js" />
+		</folder>
+		<folder name="test">
+			<child name="firstrun" key="{B31099BF-D6C7-4E24-BF70-63273E25F250}" path="firstrun.js" />
+			<child name="orders" key="{2C86828C-9860-47F3-A291-82DAC10DF2E8}" path="orders.js" />
+			<child name="addRecorderdOrder" key="{54E67BC9-1E21-4593-8E01-701CC9BE0D27}" path="addRecorderdOrder.js" />
+		</folder>
+	</children>
+</Root>
