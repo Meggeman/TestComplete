@@ -1,0 +1,102 @@
+﻿
+let order = Aliases.Orders;
+let mainForm = Aliases.Orders.MainForm;
+let orderForm = Aliases.Orders.OrderForm;
+let groupBox = orderForm.Group;
+let customer = groupBox.Customer;
+let city = groupBox.City;
+let street = groupBox.Street;
+let zip = groupBox.Zip;
+let state = groupBox.State;
+let cardNum = groupBox.CardNo;
+
+
+//function open(){
+//  
+//TestedApps.Orders.Run(1)
+////orders.MainForm.MainMenu.Click("Orders|New order...");
+//}
+
+var orderOne= {
+  name:"Megi",
+  street:"Street5",
+  city:"Tbilisi",
+  state:"state",
+  zip:"0101",
+  cardNo:"123456789",
+  
+};
+
+var orderTwo= {
+  name:"Nino",
+  street:"Street2",
+  city:"Tbilisi",
+  state:"state2",
+  zip:"0202",
+  cardNo:"222255588",
+  
+};
+
+
+
+function ordersAdding(){
+TestedApps.Orders.Run(1)
+let orders =Aliases.Orders;
+orders.MainForm.MainMenu.Click("Orders|New order...");
+
+//aqObject.CheckProperty(Aliases.Orders.OrderForm.Group.Customer,"wText",cmpEqual, "");
+orderForm.Group.Customer.SetText(orderOne.name)
+
+//Aliases.Orders.OrderForm.Group.Customer.wText
+//OCR.Recognize(Aliases.Orders.MainForm.OrdersView).CheckText(orderOne.name);
+aqObject.CheckProperty(Aliases.Orders.OrderForm.Group.Customer,"wText",cmpEqual, orderOne.name)
+
+orderForm.Group.Street.Keys(orderOne.street);
+orderForm.Group.City.Keys(orderOne.city);
+orderForm.Group.State.Keys(orderOne.state);
+orderForm.Group.Zip.Keys(orderOne.zip);
+orderForm.Group.MasterCard.Click();
+orderForm.Group.CardNo.Keys(orderOne.cardNo);
+aqObject.CheckProperty(Aliases.Orders.OrderForm.Group.CardNo, "wText", cmpEqual, "123456789");
+
+order.OrderForm.ButtonOK.Click();
+
+
+
+orders.MainForm.MainMenu.Click("Orders|New order...");
+
+//aqObject.CheckProperty(Aliases.Orders.OrderForm.Group.Customer,"wText",cmpEqual, "");
+orderForm.Group.Customer.Keys(orderTwo.name);
+//Aliases.Orders.OrderForm.Group.Customer.wText
+
+orderForm.Group.Street.Keys(orderTwo.street);
+orderForm.Group.City.Keys(orderTwo.city);
+orderForm.Group.State.Keys(orderTwo.state);
+orderForm.Group.Zip.Keys(orderTwo.zip);
+orderForm.Group.Visa.Click();
+
+orderForm.Group.CardNo.Keys(orderTwo.CardNo);
+
+Aliases.Orders.OrderForm.ButtonOK.Click();
+
+
+
+  let mainForm = orders.MainForm;
+  mainForm.OrdersView.ClickItem(0, "MyMoney");
+  mainForm.ToolBar.ClickItem(6, false);
+  orders.dlgConfirmation.btnYes.ClickButton();
+  
+    mainForm.OrdersView.ClickItem(0, "MyMoney");
+  mainForm.ToolBar.ClickItem(6, false);
+  orders.dlgConfirmation.btnYes.ClickButton();
+ 
+  
+  Aliases.Orders.MainForm.MainMenu.Click("File|Exit");
+  Aliases.Orders.dlgConfirmation.btnYes.ClickButton();
+  Aliases.Orders.dlgSaveAs.btnSave.ClickButton();
+  Aliases.Orders.dlgConfirmSaveAs.Confirm_Save_As.CtrlNotifySink.btnYes.ClickButton();
+}
+
+
+
+

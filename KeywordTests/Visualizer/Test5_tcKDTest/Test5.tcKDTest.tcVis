@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{30A8FCF9-BB83-4A12-A97E-F648C5C16FD4}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="45076.3963541667" objectName="Aliases.explorer.wndShell_TrayWnd.TrayButton" objectLeft="60" objectTop="0" objectRight="120" objectBottom="50" clickPointX="91" clickPointY="17" imageFileName="tcvi73507984108160.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>
