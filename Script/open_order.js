@@ -1,5 +1,7 @@
-﻿function openOrder (){
-  TestedApps.Orders.Run(1)
+﻿class Open {
+  openOrder() {
+    TestedApps.Orders.Run(1);
+  }
 }
 
-module.exports.openOrder= open_order
+module.exports.Open = new Open();

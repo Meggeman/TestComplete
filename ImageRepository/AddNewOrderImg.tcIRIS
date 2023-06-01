@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{302E54A8-7D5B-4593-9563-357C2734256B}" version="1400" key="{B10F57A4-97EB-4573-B2D1-6613D54CBEAC}" typeId="{302E54A8-7D5B-4593-9563-357C2734256B}">
+	<config nodeName="AddNewOrderImg" />
+	<testData />
+	<data>
+		<item caption="NewOrderImg" moniker="{8F1F0D2A-1A5F-49FD-99CC-119B9F9AF4DB}" isComposite="False" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\NewOrder.png" initialHash="00000000" selectionLeft="686" selectionTop="325" selectionWidth="30" selectionHeight="34" initialLeft="686" initialTop="325" initialWidth="30" initialHeight="34" pixelTolerance="0" colorTolerance="0" deviceName="" />
+		</item>
+	</data>
+</Root>
