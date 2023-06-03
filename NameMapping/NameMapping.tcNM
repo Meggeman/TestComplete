@@ -239,6 +239,15 @@
 											</Child>
 										</Children>
 									</Child>
+									<Child Name="ButtonCancel" Key="{6EBAE780-9101-44C4-9677-78E69ED34D73}">
+										<Image FileName="1939260952" Left="403" Top="442" Right="475" Bottom="466" />
+										<TypeInfo Item0="{0DD5BE8B-9685-4223-846B-8657C8977B1E}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="ButtonCancel" />
+											</Property>
+										</Properties>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="dlgConfirmation" Key="{3BF3AC0E-951E-4D96-8370-C0AAC78FEF5B}">
@@ -390,6 +399,32 @@
 									</Property>
 								</Properties>
 							</Child>
+							<Child Name="dlgWarning" Key="{E637A9D8-1FCF-4F0F-B0E7-9FC4951AB879}">
+								<Image FileName="313074978" Left="0" Top="0" Right="302" Bottom="149" />
+								<TypeInfo Item0="{F1A9C35B-D868-4B1C-A570-44FEB7BBB5C4}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Warning" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Static" Key="{5AD43A81-C030-4844-9323-C72EEFA2F292}">
+										<Image FileName="-1121664924" Left="65" Top="52" Right="271" Bottom="80" />
+										<TypeInfo Item0="{1251B240-8D7E-46F2-822F-A5A4980777E2}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Static" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="54006800650020007300700065006300690066006900650064002000640061007400650020006900730020006E006F0074002000760061006C00690064002E000D000A005400680065002000640061007400650020006900730020006300680061006E00670065006400200074006F0020007400680065002000630075007200720065006E00740020006F006E0065002E00" Type="7" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="explorer" Key="{5488D21A-B74A-4524-A319-7FF301828D52}">
@@ -420,6 +455,18 @@
 										</Properties>
 									</Child>
 								</Children>
+							</Child>
+							<Child Name="wndCabinetWClass" Key="{C9A1A691-3611-49D4-B315-4F08467EF0FD}">
+								<Image FileName="-2099492095" Left="0" Top="0" Right="893" Bottom="635" />
+								<TypeInfo Item0="{03CC5514-0012-400A-8CFF-91A0E6695952}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="CabinetWClass" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="last version" />
+									</Property>
+								</Properties>
 							</Child>
 						</Children>
 					</Child>
@@ -458,6 +505,7 @@
 					<Child Name="Visa" Owner="{CFF3AE5E-B52F-491C-B804-CFB187145613}" />
 					<Child Name="ExpDate" Owner="{E9ABD031-6D77-4A1C-A65A-ADE2D3C0C5C4}" />
 				</Child>
+				<Child Name="ButtonCancel" Owner="{6EBAE780-9101-44C4-9677-78E69ED34D73}" />
 			</Child>
 			<Child Name="dlgConfirmation" Owner="{3BF3AC0E-951E-4D96-8370-C0AAC78FEF5B}">
 				<Child Name="btnCancel" Owner="{8AF4AD5C-35A9-42F1-B4C2-3509BA25510B}" />
@@ -475,11 +523,15 @@
 				</Child>
 			</Child>
 			<Child Name="dlgOpen" Owner="{AA27A484-2B5C-49F5-A78B-478FE9DBF83A}" />
+			<Child Name="dlgWarning" Owner="{E637A9D8-1FCF-4F0F-B0E7-9FC4951AB879}">
+				<Child Name="Static" Owner="{5AD43A81-C030-4844-9323-C72EEFA2F292}" />
+			</Child>
 		</Child>
 		<Child Name="explorer" Owner="{5488D21A-B74A-4524-A319-7FF301828D52}">
 			<Child Name="wndShell_TrayWnd" Owner="{C9DA0BD6-9B6E-4041-BB9C-3EC761870A87}">
 				<Child Name="TrayButton" Owner="{84628B4C-75F6-4877-811A-E7E39C38F249}" />
 			</Child>
+			<Child Name="wndCabinetWClass" Owner="{C9A1A691-3611-49D4-B315-4F08467EF0FD}" />
 		</Child>
 	</LogicalNodes>
 </Root>

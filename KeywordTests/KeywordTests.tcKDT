@@ -2,5 +2,6 @@
 <Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
 	<children>
 		<child name="addOrder" key="{24CC6332-4103-46C4-8295-CE857E0CF6E7}" path="addOrder.tcKDTest" />
+		<child name="GlobalVariables" key="{39B30253-AEEF-4AA1-9B31-2F71D8CE998F}" path="GlobalVariables.tcKDTest" />
 	</children>
 </Root>

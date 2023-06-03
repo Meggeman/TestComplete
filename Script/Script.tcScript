@@ -2,15 +2,48 @@
 <Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
 	<children>
 		<folder name="main">
-			<child name="open_order" key="{8A31DA97-B9F5-41A9-82FB-4F784809ABC1}" path="open_order.js" />
-			<child name="AddOrderAndSave" key="{287DED61-4D06-4F8A-8BD0-B78600EC3609}" path="AddOrderAndSave.js" />
-			<child name="CloseOrder" key="{883AD5F2-F21C-44E1-B529-3CDF0E9939FF}" path="CloseOrder.js" />
-			<child name="addOrders" key="{3CD1FE36-31E8-4968-8023-4640330A8C54}" path="addOrders.js" />
+			<folder name="Common">
+				<child name="open_order" key="{8A31DA97-B9F5-41A9-82FB-4F784809ABC1}" path="open_order.js" />
+				<child name="CloseOrder" key="{883AD5F2-F21C-44E1-B529-3CDF0E9939FF}" path="CloseOrder.js" />
+			</folder>
+			<folder name="Data">
+				<child name="CountOrders" key="{B36DA73E-59FA-4A45-BE6F-07488CD189EF}" path="CountOrders.js" />
+			</folder>
+			<folder name="Models" />
+			<folder name="Pages/Steps">
+				<folder name="CheckF">
+					<child name="checkFromMenu" key="{DBAFE7F2-9CB4-4DF5-9C7F-8F1D5ADADADA}" path="checkFromMenu.js" />
+					<child name="CheckBtn" key="{FB42DC96-FF82-4B8D-A994-C7B719874D27}" path="CheckBtn.js" />
+					<child name="checkList" key="{AC684480-FF19-42A2-926A-4533CFD26ED2}" path="checkList.js" />
+					<child name="QtyType" key="{5CC8AC2A-F8E3-4E5C-B8D1-B235DCDE3398}" path="QtyType.js" />
+					<child name="checkPriceDiscTotalDefolt" key="{2C8AB497-B938-44B0-9E52-3E867BF6C181}" path="checkPriceDiscTotalDefolt.js" />
+					<child name="checkPriceDiscTotal" key="{375AED92-9E0B-49AE-A511-3F13A98E4B2F}" path="checkPriceDiscTotal.js" />
+					<child name="checkDataForm" key="{FB9AF39C-9AD3-40FD-870B-EEAFEA0AB93F}" path="checkDataForm.js" />
+				</folder>
+				<folder name="AddF">
+					<child name="AddFromGlobalVariable" key="{26771686-3D09-421A-9CDC-277DC00781B9}" path="AddFromGlobalVariable.js" />
+					<child name="addOrders" key="{3CD1FE36-31E8-4968-8023-4640330A8C54}" path="addOrders.js" />
+					<child name="AddOrderAndSave" key="{287DED61-4D06-4F8A-8BD0-B78600EC3609}" path="AddOrderAndSave.js" />
+				</folder>
+				<folder name="DeleteF">
+					<child name="DeleteOrders" key="{C1B520FB-7633-486F-AE9D-108299CC90FF}" path="DeleteOrders.js" />
+				</folder>
+			</folder>
 		</folder>
 		<folder name="test">
-			<child name="firstrun" key="{B31099BF-D6C7-4E24-BF70-63273E25F250}" path="firstrun.js" />
-			<child name="orders" key="{2C86828C-9860-47F3-A291-82DAC10DF2E8}" path="orders.js" />
-			<child name="addRecorderdOrder" key="{54E67BC9-1E21-4593-8E01-701CC9BE0D27}" path="addRecorderdOrder.js" />
+			<folder name="TestCases">
+				<child name="secondTask" key="{5A768D2E-B2A5-4AA8-9D86-6CFEB5219FA5}" path="secondTask.js" />
+				<child name="checkFromMenuTest" key="{8F64BE23-3C4E-49B7-8A5D-1535C210362F}" path="checkFromMenuTest.js" />
+			</folder>
+			<folder name="TestRunner">
+				<child name="addRecorderdOrder" key="{54E67BC9-1E21-4593-8E01-701CC9BE0D27}" path="addRecorderdOrder.js" />
+				<child name="firstrun" key="{B31099BF-D6C7-4E24-BF70-63273E25F250}" path="firstrun.js" />
+				<child name="orders" key="{2C86828C-9860-47F3-A291-82DAC10DF2E8}" path="orders.js" />
+				<child name="AddFromGlobalVariables" key="{F8F4AE8E-EE08-4B7C-BBBD-0938F3527027}" path="AddFromGlobalVariables.js" />
+				<child name="RunDelete" key="{AEA8A456-B087-4925-B340-853226AD9967}" path="RunDelete.js" />
+				<child name="step3_1" key="{4B4F9947-F84E-4773-83A8-17CE5C00DD99}" path="step3_1.js" />
+				<child name="step5" key="{D8BCF5F7-02A8-4294-9D3C-492323492789}" path="step5.js" />
+			</folder>
 		</folder>
 	</children>
 </Root>
